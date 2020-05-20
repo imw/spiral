@@ -62,7 +62,7 @@ git submodule update --init --recursive
 Install required packages:
 
 ```shell
-apt-get install cmake pkg-config protobuf-compiler libjson-c-dev intltool libpython3-dev python3-pip
+apt-get install cmake pkg-config protobuf-compiler libprotoc-dev libjson-c-dev intltool libpython3-dev python3-pip
 pip3 install six setuptools numpy scipy tensorflow==1.14 tensorflow-hub dm-sonnet==1.35
 ```
 
